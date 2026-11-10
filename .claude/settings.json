@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node skills/wedding-invitation/scripts/validate-brief.mjs:*)",
+      "Bash(node skills/wedding-invitation/scripts/lint-invite.mjs:*)",
+      "Bash(node skills/wedding-invitation/scripts/render-png.mjs:*)",
+      "Bash(node --test:*)"
+    ],
+    "deny": ["Read(./.env)"]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "wedding-invitation",
+  "version": "0.1.0",
+  "description": "Design Indian wedding invitations (HTML + PNG) that respect the tradition, script and region.",
+  "skills": "./skills",
+  "commands": "./.claude/commands"
+}

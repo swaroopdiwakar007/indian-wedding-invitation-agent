@@ -1,0 +1,11 @@
+{
+  "name": "wedding-invitation",
+  "owner": { "name": "indian-wedding-invitation-agent" },
+  "plugins": [
+    {
+      "name": "wedding-invitation",
+      "source": "./",
+      "description": "Design Indian wedding invitations as HTML and PNG."
+    }
+  ]
+}

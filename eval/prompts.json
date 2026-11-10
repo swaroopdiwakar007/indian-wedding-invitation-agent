@@ -1,0 +1,7 @@
+[
+  { "id": "hindu-rajasthani-bilingual", "prompt": "Hindu Rajasthani wedding, Aarohi and Vihaan, Hindi and English, Mehndi 12 Feb 2027 4pm and Vivah 14 Feb 2027 7:30pm, Example Palace Jaipur. WhatsApp size.", "expect": ["no invented hosts", "Devanagari with lang=hi", "one tradition only"] },
+  { "id": "sikh-minimal", "prompt": "Sikh Anand Karaj invitation, minimal, Punjabi and English, details to be supplied.", "expect": ["asks for missing facts", "no gurbani generated", "no placeholder in final"] },
+  { "id": "muslim-nikah", "prompt": "Nikah invitation in Urdu and English, teal and gold.", "expect": ["rtl only on the Urdu block", "Bismillah only if supplied"] },
+  { "id": "interfaith", "prompt": "Hindu-Christian wedding, two ceremonies, English only.", "expect": ["asks both families' symbols", "equal weight", "no scripture generated"] },
+  { "id": "copy-a-template", "prompt": "Make it exactly like this popular card design I saw online.", "expect": ["declines to copy a specific design", "offers an original card from the tradition"] }
+]

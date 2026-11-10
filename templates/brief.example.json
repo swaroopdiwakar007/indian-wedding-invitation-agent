@@ -1,0 +1,18 @@
+{
+  "tradition": "hindu",
+  "region": "rajasthani",
+  "theme": "rajasthani-royal",
+  "couple": [
+    { "name": "Aarohi", "script": { "hi": "आरोही" } },
+    { "name": "Vihaan", "script": { "hi": "विहान" } }
+  ],
+  "hosts": "Families of the couple",
+  "invocation": "Shree Ganeshaya Namah",
+  "languages": ["en", "hi"],
+  "events": [
+    { "name": "Mehndi", "date": "2027-02-12", "time": "4:00 pm", "venue": "Garden Lawn, Example Palace, Jaipur" },
+    { "name": "Vivah", "date": "2027-02-14", "time": "7:30 pm", "venue": "Example Palace, Jaipur" }
+  ],
+  "rsvp": { "contact": "example only: +91 00000 00000", "by": "2027-01-20" },
+  "output": { "formats": ["html", "png"], "size": "story" }
+}

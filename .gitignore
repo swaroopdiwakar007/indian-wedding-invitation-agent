@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.env
+# generated invitations stay local unless you opt in
+output/
+!output/.gitkeep
+# real couples' details never belong in git
+briefs/*.json
+!briefs/example.json

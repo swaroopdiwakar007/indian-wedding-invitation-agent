@@ -1,0 +1,17 @@
+{
+  "name": "indian-wedding-invitation-agent",
+  "version": "0.1.0",
+  "description": "An AI agent skill that designs Indian wedding invitations as self-contained HTML and PNG. For Claude Code, Codex, Cursor and OpenCode.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "validate": "node skills/wedding-invitation/scripts/validate-brief.mjs templates/brief.example.json",
+    "lint": "node skills/wedding-invitation/scripts/lint-invite.mjs examples",
+    "render": "node skills/wedding-invitation/scripts/render-png.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "install-skill": "node skills/wedding-invitation/scripts/install.mjs"
+  },
+  "optionalDependencies": {},
+  "keywords": ["wedding", "invitation", "india", "claude-code", "agent-skill", "design", "html", "png"]
+}
