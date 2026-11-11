@@ -4,6 +4,14 @@
 
 One self-contained HTML page, rendered to PNG for WhatsApp, print or social. Built from the tradition the couple names, in the scripts the families read.
 
+<p align="center">
+  <img src="assets/readme/card.png" alt="Example invitation: a Rajasthani-style arch card for a fictional couple, Aarohi and Vihaan, in English and Hindi" width="300">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/readme/demo.gif" alt="The same card building up section by section: arch and invocation, names, host line, Mehndi, Vivah, RSVP" width="300">
+</p>
+
+<p align="center"><sub>Example card for a fictional couple. Right: the card assembling section by section, names and date first. This is an illustration of the hero-first approach, not a recording of an agent run. Screenshots use a stand-in serif for headings; the live card loads Cormorant Garamond and Tiro Devanagari Hindi.</sub></p>
+
 ## What it does
 
 - Asks once for the facts it needs: tradition, region, names, events, languages, output size.
@@ -41,11 +49,15 @@ PNG export needs Node 18+, `npm i -g puppeteer-core`, and Chrome. Without them y
 
 ## Themes
 
+![Palettes of the nine themes: Bengali Alpona, Goan Catholic, Gujarati Bandhani, Kerala Kasavu, Minimal Modern, Mughal Nikah, Punjabi Phulkari, Rajasthani Royal, South Indian Temple](assets/readme/themes.png)
+
 Rajasthani Royal · South Indian Temple · Bengali Alpona · Punjabi Phulkari · Gujarati Bandhani · Kerala Kasavu · Mughal Nikah · Goan Catholic · Minimal Modern · or custom.
 
 A theme is a material (palette, motif family, type), never a plan. See [`skills/wedding-invitation/references/themes/`](skills/wedding-invitation/references/themes).
 
 ## How a build runs
+
+![Workflow: Brief, Direction, HTML, Lint, PNG](assets/readme/workflow.svg)
 
 1. Intake: one message, a validated `brief.json`.
 2. Direction: one tradition note, one theme.
@@ -77,7 +89,8 @@ templates/             invite-base.html, brief.example.json
 examples/              a finished example card (fictional couple)
 eval/                  prompts and a scoring rubric
 tests/                 node:test suite
-docs/                  architecture, privacy
+docs/                  architecture, privacy, readme-assets/ (regenerates the images)
+assets/readme/         README images and GIF
 ```
 
 ## Privacy
